@@ -1,3 +1,8 @@
+# Management (ノಠ益ಠ)ノ彡 
+
+
+----
+
 # Objectifs
 1. Identifier et clarifier son rôle de manager
 2. Évaluer son style et sa personnalité managériale

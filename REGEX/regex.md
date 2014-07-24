@@ -1,4 +1,4 @@
-# Regex
+# Regex (╯°□°）╯︵ ┻━┻
 
 ## Catégories
 
@@ -201,7 +201,7 @@ Objectif : Extraire tous les mots simple ou simples.
 - Etape 1 : `# simples? #` => Retourne les mots "simple" entourés par des espaces
 - Etape 2 : `# simples?[ ,!.;:]#` => Retourne les mots "simples" finissant par une ponctuation
 
-Pour faire ceci, il y a l'assertion `/b` qui est équivalente à `(^\w|\w$|\W\w|\w\W)`
+Pour faire ceci, il y a l’assertion `/b` qui est équivalente à `(^\w|\w$|\W\w|\w\W)`
 
 Résultat : `#\bsimples?\b#`
 
@@ -221,7 +221,7 @@ Pensez aux assertions simples comme des indicateurs de position dans la chaîne 
 
 `preg_replace('#les?#i', '***', $txt)`
 
-Interrupteur avec l'option insensible à la casse 
+Interrupteur avec l’option insensible à la casse 
     Désactivation : (?-i) 
     Activation : (?i)
 
@@ -232,11 +232,11 @@ Cette regex doit matcher concordance et CONCORdance, mais pas concorDANCE ou CON
 
 ### s - Le dot comprend le retour ligne
 
-L'option s ajoute le retour à la ligne au métacaractère.
+L’option s ajoute le retour à la ligne au métacaractère.
 Attention : Le résultat contiendra le retour à la ligne.
 
 Texte exemple :
-Petit exemple pour capturer l'URL de ceci : `<a href="http://
+Petit exemple pour capturer l’URL de ceci : `<a href="http://
 url.com">lien</a>`
 
 Pattern : `#<a href="(.*?)">#s`
@@ -257,10 +257,50 @@ php supporte aussi des expressions rationnelles compatibles Perl,
 Après évaluation :
 PHP etroppus AUSSI sed EXPRESSIONS sellennoitar COMPATIBLES lreP,
 
-    <?php
-        function transform($capture) {
-            $txt = strtoupper($capture[1]).$capture[2].strrev($capture[3]);
-            return $txt;
-        }
+    
+    function transform($capture) {
+        $txt = strtoupper($capture[1]).$capture[2].strrev($capture[3]);
+        return $txt;
+    }
 
     echo preg_replace_callback('#(\w+)([^\w]*)(\w+)#', "transform", $txt);
+
+
+### U - Option non gourmande
+
+Rendre un ou plusieurs quantificateur non-gourmand dans une regex. L’option U permet de rendre tous les quantificateurs d’une regex non gourmands. Ces deux motifs sont parfaitement identiques :
+
+    '#<a href="(.*?)">(.*?)</a>#'
+    '#<a href="(.*)">(.*)</a>#U'
+
+
+### x - Option intégrant le # commentaire
+
+Avec cette option, les caractères d’espacement sont ignorés, sauf lorsqu’ils sont échappés, ou à l’intérieur d’une classe de caractères, et tous les caractères entre # non échappés et en dehors d’une classe de caractères, et le prochain caractère de nouvelle ligne sont ignorés. C’est l’équivalent Perl de l’option `/x` : elle permet l’ajout de commentaires dans les masques compliqués.
+
+Exemple : 
+    $motif = '/^\d+;[^;]+;[^;]+;HADDOCK;([^;]+);([^;]+);.*/m'; 
+
+    $motif = " 
+    /         # délimiteur (ici je n’ ai pas pris #, réservé pour les commentaires) 
+        ^         # ancrage de début de chaîne 
+        \d+;      # tout décimal 1 fois ou plus, suivi par ; 
+        [^;]+;    # tout caractère sauf ; 1 fois ou plus, suivi par ; 
+        [^;]+;    # idem 
+        HADDOCK;  # les caractères HADDOCK suivi par ; 
+        ([^;]+);  # capture tout caractère sauf ; 1 fois ou plus, suivi par ; 
+        ([^;]+);  # idem 
+        .*        # tout caractère sauf retour ligne 0 fois ou plus 
+    /xm";
+
+## Les assertions compliquées
+
+Les assertions se placent entre deux caractères et testent les caractères suivants (lookahead) ou précédents (lookbehind).
+
+| Types d’assertion                | Motif      | Succès si le motif dans l’assertion...   |
+| -------------------------------- | ---------- | ---------------------------------------- |
+|Les assertions arrières positives | (?<=motif) | ...trouve une concordance à gauche       |
+|Les assertions arrières négatives | (?<!motif) | ...ne trouve pas de concordance à gauche |
+|Les assertions avant positives    | (?=motif)  | ...trouve une concordance à droite       |
+|Les assertions avant négatives    | (?!motif)  | ...ne trouve pas de concordance à droite |
+
