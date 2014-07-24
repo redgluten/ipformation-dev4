@@ -102,8 +102,49 @@ Exemples :
 - `preg_split()` : éclate une chaîne de caractères par expression rationnelle
 - `preg_last_error()` : retourne le code erreur de la dernière expression PCRE exécutée
 
-## Les parenthèses capturantes
+## Les références arrières (back reference)
 
+On peut capturer quelque-chose dans un texte et l'utiliser plus loin dans le motif comme référence.
+
+Exemple :
+Objectif : Capturer tout ce qui est contenu dans les balises <b> ou <i>.
+<i>Texte italique</i> texte normal <b> et texte gras</b> fin du texte.
+
+Motif : `#<([ib])>(.*?)</\1>#`
+
+La première parenthèse capturante mémorisera le i ou le b des balises ouvrantes `<b>` ou `<i>` et l'utilisera plus loin dans les balises fermantes `</b>` ou `</i>` grâce au motif `</\1>` où `\1`, la référence arrière, sera égale à b ou i selon ce qui aura été capturé plus avant.
+
+Résultats :
+    Matches [0]=>
+    [0]=> <i>Texte italique</i>
+    [1]=> <b> et texte gras</b>
+    Capture [1]=>
+    [0]=> i
+    [1]=> b
+    Capture [2]=>
+    [0]=> Texte italique
+    [1]=> et texte gras
+
+Chaque parenthèse capturante rencontrée stockera la capture dans une référence arrière numérotée en fonction de la position de la parenthèse dans le motif.
+
+Exemple : 
+"Le premier jour de la semaine est le lundi suivi par mardi, le mercredi puis le jeudi qui précède le vendredi."
+
+Il peut s'avérer intéressant de ne pas incrémenter les références arrières pour en faciliter le traitement.
+
+`/((lun|mar|jeu)|(mer)cre|(ven)dre)di/` ce motif aura 4 groupes de captures puisqu'il y a 4 groupes de parenthèses avec un niveau d'imbrication.
+
+La version Perl 5.10 a introduit la possiblilité de ne pas incrémenter la numérotation des captures dans une série d'alternatives (Duplicate Subpattern Numbers).
+
+Le motif ci dessus s'écrira: #(?|(lun|mar|jeu)|(mer)cre|(ven)dre)di#. Remarquez le ?| de la première parenthèse. Ce motif produira un seul groupe de capture
+
+Résultat : 
+Capture [1]=>
+    [0]=>lun
+    [1]=>mar
+    [2]=>mer
+    [3]=>jeu
+    [4]=>ven
 
 
 **Exemples pratiques** :
