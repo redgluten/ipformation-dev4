@@ -1,4 +1,4 @@
-# Git   ( •_•)O*¯`·.¸.·´¯`°Q(•_• ) 
+# Git   ( •_•)O*¯\`·.¸.·´¯\`°Q(•_• ) 
 
 Git est un gestionnaire de version distribué (décentralisé).
 
