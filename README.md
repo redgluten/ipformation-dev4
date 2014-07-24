@@ -2,9 +2,9 @@
 
 Cours et TP d'IPFormation pour la promo DEV4.
 
-Les notes de cours sont au format [Markdown](http://daringfireball.net/projects/markdown/.)
+Les notes de cours sont au format [Markdown](http://daringfireball.net/projects/markdown/).
 
-Merci d'utiliser [EditorConfig](http://editorconfig.org) pour éviter les conflits de réglages.
+Merci d'utiliser [EditorConfig](http://editorconfig.org) pour éviter les conflits de réglages (utiliser le paquet editorconfig sous Sublime Text par exemple).
 
 ## Liens utiles
 - Documentation [Markdown](http://daringfireball.net/projects/markdown/)

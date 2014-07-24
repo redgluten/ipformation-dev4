@@ -3,17 +3,19 @@
 # top-most EditorConfig file
 root = true
 
-# Utiliser les fins de ligne UNIX
+# Par défaut
 [*]
 end_of_line = lf
 insert_final_newline = true
-
-# Indentation par défaut en espaces avec une taille de 4
-[*]
+charset = utf-8
+trim_trailing_whitespace = true
+insert_final_newline = tru
 indent_style = space
 indent_size = 4
+
+[*.md]
+trim_trailing_whitespace = false
 
 # Indentation pour les CSS et SCSS en tab
 [*.css, *.scss]
 indent_style = tab
-
