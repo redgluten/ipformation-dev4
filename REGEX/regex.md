@@ -175,6 +175,31 @@ Le tableau de résultat retournera cette fois ceci :
         [4]=> le
 
 
+## Les assertions PCRE
+
+### Les assertions simples 
+
+- `\b` limite de mot
+- `\B` pas de limite de mot
+- `\A` début de la chaine
+- `\Z` fin de la chaine ou nouvelle ligne à la fin de la chaine
+- `\z` fin de la chaine
+
+Texte exemple : 
+"Voici simplement un simple exemple, très simple, mais pas simplet sur les assertions PCRE pourtant pas si simples!"
+
+Objectif : Extraire tous les mots simple ou simples.
+
+- Etape 1 : `# simples? #` => Retourne les mots "simple" entourés par des espaces
+- Etape 2 : `# simples?[ ,!.;:]#` => Retourne les mots "simples" finissant par une ponctuation
+
+Pour faire ceci, il y a l'assertion `/b` qui est équivalente à `(^\w|\w$|\W\w|\w\W)`
+
+Résultat : `#\bsimples?\b#`
+
+Pensez aux assertions simples comme des indicateurs de position dans la chaîne cible. Cet indice de position ne pointera pas sur un caractère mais bien entre deux caractères.
+
+
 ## Liens
 
 - [Regular Expressions (PCRE) en PHP](http://fr2.php.net/manual/en/book.pcre.php)
