@@ -1,0 +1,19 @@
+# Fichier EditorConfig http://editorconfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Utiliser les fins de ligne UNIX
+[*]
+end_of_line = lf
+insert_final_newline = true
+
+# Indentation par défaut en espaces avec une taille de 4
+[*]
+indent_style = space
+indent_size = 4
+
+# Indentation pour les CSS et SCSS en tab
+[*.css, *.scss]
+indent_style = tab
+
