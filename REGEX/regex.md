@@ -299,8 +299,89 @@ Les assertions se placent entre deux caractères et testent les caractères suiv
 
 | Types d’assertion                | Motif      | Succès si le motif dans l’assertion...   |
 | -------------------------------- | ---------- | ---------------------------------------- |
-|Les assertions arrières positives | (?<=motif) | ...trouve une concordance à gauche       |
-|Les assertions arrières négatives | (?<!motif) | ...ne trouve pas de concordance à gauche |
-|Les assertions avant positives    | (?=motif)  | ...trouve une concordance à droite       |
-|Les assertions avant négatives    | (?!motif)  | ...ne trouve pas de concordance à droite |
+|Les assertions arrières positives | `(?<=motif)` | ...trouve une concordance à gauche       |
+|Les assertions arrières négatives | `(?<!motif)` | ...ne trouve pas de concordance à gauche |
+|Les assertions avant positives    | `(?=motif)`  | ...trouve une concordance à droite       |
+|Les assertions avant négatives    | `(?!motif)`  | ...ne trouve pas de concordance à droite |
+
+L’implémentation des assertions arrières déplace temporairement le pointeur de position vers l’arrière, et cherche à vérifier l’assertion. Si le nombre de caractères est différent, la position ne sera pas correcte, et l’assertion échouera. La combinaison d’assertions arrières avec des sous-masques peut être particulièrement pratique à fin des chaînes.
+
+Objectif : On veut extraire du texte suivant le déterminant "de", mais uniquement s’il est suivi du mot "caractère"
+
+Pattern : `#\bde\b(?= caractères)#`
+
+Objectif 2 : Toutes les occurrences de "assertion" ou "assertions" sauf celles précédées de `l’`.
+
+Pattern : `#(?<!l’)assertions?#`
+
+
+## Les masques conditionnels
+
+Le prototype d’un sous-masque conditionnel (conditional sub-pattern) est le suivant :
+
+    (?(condition) masque_si_vrai | masque_sinon)
+
+Il s’agit en fait d’une structure de contrôle du type if-then-else. Lorsque nous avons deux masques possibles, l’évaluation de la condition déterminera l’utilisation de l’un ou de l’autre.
+
+La condition est soit une assertion soit un décimal se référant à une référence arrière (capture).
+
+Exemple : 
+
+    To: destinataire@example.com (commentaire inutile à ne pas capturer)
+    From: moi@example.net (commentaire encore plus inutile)
+    Subject: Ces regex c’est mal.
+
+
+Objectif : Capturer les différents blocs To/From/Subject
+
+Pattern : `/^((From|To)|Subject): ((?(2)\w+@\w+\.[a-z]+|.+))/m`
+
+    '/ 
+    ^                        # ancrage début de chaîne (ligne puisque option m) 
+    ((From|To)|Subject):\s   # soit From ou To (capturé en \2) soit Subject suivi par : et espace 
+    (                        # paranthèse capturante (capture \3) 
+      (?(2)                    # if (From ou To) (2 est la référence arrière à la capture plus haut) 
+        \w+@\w+\.[a-z]+          # then toute chaine alphanum suivie par @ suivie par aphanum 
+                                 # suivie par un point et une chaîne alpha 
+       |                       # else 
+         .+)                     # tout caractère une ou plusieurs fois 
+    )                        # fin capture \3 et options m multiline et x pour commentaires 
+    /xm' 
+
+
+## Optimisation des Regex
+
+- Utilisez le moins possible les dot
+- Supprimez les parenthèse capturantes inutiles
+- Optimisez les alternatives 
+- Scindez vos regex trop complexe
+- Supprimez les options inutiles
+- Choisir les fonctions callback appropriées
+- Ancrez vos motifs
+- Testez et chronométrez
+
+
+## Optimisez vos alternatives
+
+Le motif non ordonné `#(?:le|la|les|de|du|des|au|aux|mes|tes|ses|nos|vos) alternatives#` sera plus lent que si vous placiez le choix le plus probable devant : `#(?:vos|la|les|de|du|des|au|aux|mes|tes|ses|nos) alternatives#`
+
+Il est plus efficace d'écrire `[akpi]` plutôt que `(?:a|k|p|i)`. 
+De la même manière il vaut mieux faire `(?:les?|des?|aux?)` que `(?:le|les|de|des|au|aux)`.
+
+Testez et chronométrez :
+
+    <?php
+        $timeStart = microtime(true); 
+        $nbLoops = 200; 
+        while ($nbLoops--) { 
+            /* 
+             *  code à tester 
+             */ 
+        } 
+        echo number_format(microtime(true) - $timeStart, 4);
+    ?>
+
+Point non abordés :
+ - [Masque récursif](http://php.belnet.be/manual/fr/regexp.reference.recursive.php)
+
 
