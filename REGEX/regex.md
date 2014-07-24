@@ -136,7 +136,7 @@ Il peut s'avérer intéressant de ne pas incrémenter les références arrières
 
 La version Perl 5.10 a introduit la possiblilité de ne pas incrémenter la numérotation des captures dans une série d'alternatives (Duplicate Subpattern Numbers).
 
-Le motif ci dessus s'écrira: #(?|(lun|mar|jeu)|(mer)cre|(ven)dre)di#. Remarquez le ?| de la première parenthèse. Ce motif produira un seul groupe de capture
+Le motif ci-dessus s'écrira: `#(?|(lun|mar|jeu)|(mer)cre|(ven)dre)di#`. Remarquez le `?|` de la première parenthèse. Ce motif produira un seul groupe de capture.
 
 Résultat : 
 Capture [1]=>
@@ -146,9 +146,13 @@ Capture [1]=>
     [3]=>jeu
     [4]=>ven
 
-
 **Exemples pratiques** :
-- `href="(.*?)"` : retourne l’URL
+- `href="(.*?)"` : capture l’URL
+
+
+## Parenthèses non capturantes
+
+
 
 ## Liens
 
