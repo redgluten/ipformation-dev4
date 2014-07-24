@@ -17,6 +17,14 @@ Permet de trouver une chaîne de caractères à partir d’un motif (*pattern*).
 - Gérer des éléments spécifiques
 - Récupérer des éléments dans une page web
 
+## Liens
+
+- [Regular Expressions (PCRE) en PHP](http://fr2.php.net/manual/en/book.pcre.php)
+- [Regex 101](http://regex101.com/)
+- [Page wikipedia](http://fr.wikipedia.org/wiki/Expression_rationnelle)
+- [Tuto OpenClassroom](http://fr.openclassrooms.com/informatique/cours/concevez-votre-site-web-avec-php-et-mysql/les-expressions-regulieres-partie-1-2)
+
+
 ## Symboles
 
 ### Méta-caractères
@@ -200,8 +208,59 @@ Résultat : `#\bsimples?\b#`
 Pensez aux assertions simples comme des indicateurs de position dans la chaîne cible. Cet indice de position ne pointera pas sur un caractère mais bien entre deux caractères.
 
 
-## Liens
+## Les options
+    
+    i - Insensible à la casse
+    s - Le dot comprend le retour ligne
+    m - Multiligne
+    e - Evaluation de code PHP
+    U - Option non gourmande
+    x - Option intégrant le # commentaire
 
-- [Regular Expressions (PCRE) en PHP](http://fr2.php.net/manual/en/book.pcre.php)
-- [Regex 101](http://regex101.com/)
-- [Page wikipedia](http://fr.wikipedia.org/wiki/Expression_rationnelle)
+### i - Insensible à la casse
+
+`preg_replace('#les?#i', '***', $txt)`
+
+Interrupteur avec l'option insensible à la casse 
+    Désactivation : (?-i) 
+    Activation : (?i)
+
+`preg_match_all('#concor(?-i)dance#i', $txt, $out)`
+
+Texte exemple :
+Cette regex doit matcher concordance et CONCORdance, mais pas concorDANCE ou CONCORDAncE
+
+### s - Le dot comprend le retour ligne
+
+L'option s ajoute le retour à la ligne au métacaractère.
+Attention : Le résultat contiendra le retour à la ligne.
+
+Texte exemple :
+Petit exemple pour capturer l'URL de ceci : `<a href="http://
+url.com">lien</a>`
+
+Pattern : `#<a href="(.*?)">#s`
+
+### m - Multiligne
+
+L'option m (PCRE MULTILINE) demande au moteur regex de considérer chaque retour ligne comme la fin de chaîne et le début de la suivante.
+
+### e - Evaluation de code PHP 
+
+(DEPRECATED 5.5.0 utilisez preg_replace_callback)
+
+`echo preg_replace('#(\w+)([^\w]*)(\w+)#e','strtoupper("\1")."\2".strrev("\3")' , $txt);`
+
+Texte example : 
+php supporte aussi des expressions rationnelles compatibles Perl,
+
+Après évaluation :
+PHP etroppus AUSSI sed EXPRESSIONS sellennoitar COMPATIBLES lreP,
+
+    <?php
+        function transform($capture) {
+            $txt = strtoupper($capture[1]).$capture[2].strrev($capture[3]);
+            return $txt;
+        }
+
+    echo preg_replace_callback('#(\w+)([^\w]*)(\w+)#', "transform", $txt);
