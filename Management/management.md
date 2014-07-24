@@ -30,7 +30,9 @@ Le témoignage (raconter son vécu) : méthode efficace pour disposer de tous se
 Susciter l'ouverture chez l'interlocuteur en s'adressant à lui avec bienveillance : le but est de le faire progresser. Eviter de commencer par les remarques négatives.
 
 ## Cycle de la matière
-Idée = gaz = volatile -> Paroles = liquide = verbalisation -> Ecrit = solide = solidification = capitalisation stratégique ->...
+- Idée = gaz = volatile
+- Paroles = liquide = verbalisation
+- Ecrit = solide = solidification = capitalisation stratégique
 
 ----
 
@@ -110,6 +112,13 @@ Elle permet d'être efficace non pas seule, mais avec d'autres.
 - c'est intégrer
 - c'est donner du sens
 
+**Les styles de managers**
+Modèle de Marston ou le management par les couleurs
+- rouge ==> dominant (action, énergique, exigeant)
+- jaune ==> influent (solaire, communicatif, sociable)
+- vert ==> stable (calme, coopérant, sérénité)
+- bleu ==> conformiste (convervatisme, organisation, formel, analytique)
+- 
 
 # La collaboration dans une équipe ou dans un groupe
 
