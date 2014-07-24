@@ -365,7 +365,7 @@ Pattern : `/^((From|To)|Subject): ((?(2)\w+@\w+\.[a-z]+|.+))/m`
 
 Le motif non ordonné `#(?:le|la|les|de|du|des|au|aux|mes|tes|ses|nos|vos) alternatives#` sera plus lent que si vous placiez le choix le plus probable devant : `#(?:vos|la|les|de|du|des|au|aux|mes|tes|ses|nos) alternatives#`
 
-Il est plus efficace d'écrire `[akpi]` plutôt que `(?:a|k|p|i)`. 
+Il est plus efficace d’écrire `[akpi]` plutôt que `(?:a|k|p|i)`. 
 De la même manière il vaut mieux faire `(?:les?|des?|aux?)` que `(?:le|les|de|des|au|aux)`.
 
 Testez et chronométrez :
