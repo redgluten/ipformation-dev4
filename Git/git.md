@@ -1,4 +1,4 @@
-# Git ┏(-_-)┛┗(-_-﻿ )┓┗(-_-)┛┏(-_-)┓ 
+# Git   ( •_•)O*¯`·.¸.·´¯`°Q(•_• ) 
 
 Git est un gestionnaire de version distribué (décentralisé).
 
@@ -13,5 +13,5 @@ Git est un gestionnaire de version distribué (décentralisé).
 ## Clients Git graphiques
 
 - GitHub pour [Windows](https://windows.github.com/) ou [Mac](https://mac.github.com/), gratuit
-- [Tower](http://www.git-tower.com/) OS X, payant
+- [Tower](http://www.git-tower.com/) Mac, payant
 - [SourceTree](http://www.sourcetreeapp.com/), Windows & Mac, gratuit
