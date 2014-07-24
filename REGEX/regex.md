@@ -152,6 +152,27 @@ Capture [1]=>
 
 ## Parenthèses non capturantes
 
+Les parenthèses sont principalement utilisées pour capturer une série de caractères correspondant à un motif. Dans certains cas, elles seront utilisées pour délimiter les alternatives ou bien une chaîne alternative.
+
+Admettons qu'on cherche à capturer tous les mots précédés de `des` ou `de`, on pourrait faire `#(le|les|la|de|des|du)\s(\w+)#` sur l'exemple précedent.
+
+Ceci retournera un tableau contenant les mots et les déterminants (de, des ets...) on peut rendre les premières parenthèses non capturantes en rajoutant simplement ?: après la parenthèse ouvrante : `#(?:le|les|la|de|des|du)\s(\w+)#`
+
+Le tableau de résultat retournera cette fois ceci :
+
+    Matches [0]=>
+        [0]=> de la
+        [1]=> le lundi
+        [2]=> le mercredi
+        [3]=> le jeudi
+        [4]=> de le
+
+    Capture [1]=>
+        [0]=> la
+        [1]=> lundi
+        [2]=> mercredi
+        [3]=> jeudi
+        [4]=> le
 
 
 ## Liens
