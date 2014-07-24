@@ -11,6 +11,7 @@ Git est un gestionnaire de version distribué (décentralisé).
     - [GitLab](https://about.gitlab.com/) logiciel open-source pour installer son propre serveur de dépôt
 
 ## Clients Git graphiques
+
 - GitHub pour [Windows](https://windows.github.com/) ou [Mac](https://mac.github.com/), gratuit
 - [Tower](http://www.git-tower.com/) OS X, payant
-- 
+- [SourceTree](http://www.sourcetreeapp.com/), Windows & Mac, gratuit
