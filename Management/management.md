@@ -81,7 +81,7 @@ RPS se chiffrent
 - évaluer les besoins de ses collaborateurs
 - communiquer
 
-Anticiper, écouter, reconnaître...
+**Anticiper, écouter, reconnaître...**
 
 **Face aux RPS:**
 
