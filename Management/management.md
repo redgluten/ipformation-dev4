@@ -23,7 +23,7 @@ Négatives :
 - Tristesse
 - Ecoeurement (combinaison de Colère + Tristesse)
 
-L’excès de manipulateurs pose problème car il focalise l’interlocuteur sur les gestes et l’analyse du signal comportemental plutôt que sur le contenu du discours.
+L’excès de manipulateurs (gestes accompagnant la parole) pose problème car il focalise l’interlocuteur sur les gestes et l’analyse du signal comportemental plutôt que sur le contenu du discours.
 
 Le témoignage (raconter son vécu) : méthode efficace pour disposer de tous ses moyens et capter l’attention.
 
@@ -118,6 +118,8 @@ Modèle de Marston ou le management par les couleurs
 - jaune ==> influent (solaire, communicatif, sociable)
 - vert ==> stable (calme, coopérant, sérénité)
 - bleu ==> conformiste (convervatisme, organisation, formel, analytique)
+
+
 
 # La collaboration dans une équipe ou dans un groupe
 

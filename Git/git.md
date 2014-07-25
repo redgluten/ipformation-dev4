@@ -18,6 +18,7 @@ Git est un gestionnaire de version distribué (décentralisé).
 - [Tower](http://www.git-tower.com/) Mac, payant
 - [SourceTree](http://www.sourcetreeapp.com/), Windows & Mac, gratuit
 - [Tortoise](http://tortoisesvn.net), Windows
+- [Ungit](https://github.com/FredrikNoren/ungit), Mulitplateforme, nécessite Node.js, gratuit
 
 ## Gestion de conflits
 
@@ -30,4 +31,17 @@ Git est un gestionnaire de version distribué (décentralisé).
 - `git clone <url>` crée une copie locale du dépôt
 - `git add -A` ajoute tous les fichiers non présents ou modifiés dans l’index
 - `git commit -a -m "commentaire"` enregistre les modifications sur le dépôt local
-- `git pull` 
+- `git pull dépotlocal dépotdistant` Récupère les commits
+- `git push dépôtlocal dépôtdistant` Envoie les commits
+- `git checkout branche` Positionne le dépôt local sur la branche choisie
+- `git mergetool` Fais appel à un outil pour gérer les conflits
+
+## Fichiers Git
+
+- `.gitignore` : listes des fichiers à ignorer dans le versionning
+- `.gitkeep` : pour versionner un dossier vide, ajouter ce fichier dans le dossier voulu
+- `.gitattributes`: Ce fichier est présent à la racine du projet ou dans `.git/info/attributes` si il n'est pas spécifique au projet
+
+
+
+
