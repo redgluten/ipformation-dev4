@@ -1,3 +1,8 @@
+# Management (ノಠ益ಠ)ノ彡 
+
+
+----
+
 # Objectifs
 1. Identifier et clarifier son rôle de manager
 2. Évaluer son style et sa personnalité managériale
@@ -25,7 +30,9 @@ Le témoignage (raconter son vécu) : méthode efficace pour disposer de tous se
 Susciter l'ouverture chez l'interlocuteur en s'adressant à lui avec bienveillance : le but est de le faire progresser. Eviter de commencer par les remarques négatives.
 
 ## Cycle de la matière
-Idée = gaz = volatile -> Paroles = liquide = verbalisation -> Ecrit = solide = solidification = capitalisation stratégique ->...
+- Idée = gaz = volatile
+- Paroles = liquide = verbalisation
+- Ecrit = solide = solidification = capitalisation stratégique
 
 ----
 
@@ -105,6 +112,12 @@ Elle permet d'être efficace non pas seule, mais avec d'autres.
 - c'est intégrer
 - c'est donner du sens
 
+**Les styles de managers**
+Modèle de Marston ou le management par les couleurs
+- rouge ==> dominant (action, énergique, exigeant)
+- jaune ==> influent (solaire, communicatif, sociable)
+- vert ==> stable (calme, coopérant, sérénité)
+- bleu ==> conformiste (convervatisme, organisation, formel, analytique)
 
 # La collaboration dans une équipe ou dans un groupe
 
@@ -133,6 +146,7 @@ Viser relation Adulte/Adulte.
 
 ### Moi Parent
 
+C'est le siège de "l'appris"
 N'est pas pris dans sens "ascendant/descendant" Caractérise un comportement issu, imité de nos propres parents.
 
 - normes
@@ -159,6 +173,7 @@ Deux types :
 
 ### Moi enfant
 
+C'est le siège du "senti"
 Historiquement premier, puisqu'apparait avec la naissance.
 
 Siège du senti :
@@ -186,15 +201,19 @@ Types :
 - enfant rebelle (s'oppose, critique, conteste, caprice)
 - enfant libre (sans contrainte, sans tabou, sans préjugé)
 
+### Moi enfant
+
+C'est le siège du "penser"
+
 ### 4 positions de vie
 
-- OK+OK+ (s'accepte et accepte l'autre)
-- OK+OK- (se valorise et dévalorise l'autre)
-- OK-OK+ (se dévalorise et valorise l'autre)
-- OK-OK- (se dévalorise et dévalorise l'autre)
+- OK+OK+ (s'accepte et accepte l'autre) ==> coopératif
+- OK+OK- (se valorise et dévalorise l'autre) ==> arrogance
+- OK-OK+ (se dévalorise et valorise l'autre) ==> humilité
+- OK-OK- (se dévalorise et dévalorise l'autre) ==> dépression
 
 
- ### 4 marques d'intérêt
+### 4 marques d'intérêt
 
 - Indispensable pour la survie biologique et psychologique
 - Source d'énergie positive ou négative
@@ -215,6 +234,23 @@ Une marque positive est :
 Faire un compliment :
 - donner le plus rapidement possible
 - renforce tout résultat positif ou négatif
+
+### Les canaux de communication
+- non-verbal : gestuel ==> représente 50% de la communication globale
+- para-verbal : autour des mots (la voix, les intonations) ==> représente 40% de la communication globale
+- verbal : les mots ==> représente 10% de la communication globale
+
+Il faut aligner les 3 canaux dans le même sens pour que le message passe ==> congruence entre le message et le non-verbal.
+
+En conclusion, il faut chercher à être :
+- OK+ / OK+
+- ouverts
+- à l'écoute
+- communicatifs
+- authentiques
+
+***ÊTRE SOI-MÊME***
+
 
 ----
 
@@ -421,7 +457,13 @@ Prévoir **deux choses importantes** par jour et **5 ou 6 peu importantes**.
 14. Inaptitude à dire non
 
 
-## Besoins - Motivation
+
+----
+
+
+# Besoins - Motivation
+
+Le plan des besoins ou pyramide de Maslow
 
 1. physiologiques
 2. sureté et sécurité
@@ -453,7 +495,7 @@ Pour motiver :
 - transmettre des passions
 
 Rappel :
-1. La motivation est individuelle ("la carte du monde n'est pas le territoire")
+1. La motivation est individuelle (***"la carte du monde n'est pas le territoire"***)
 2. Il n'y a pas de motivation sans objectif
 3. La motivation ne se décrète pas
 4. Ne pas confondre satisfaction d'un besoin et de motivation
@@ -466,6 +508,18 @@ Contruction du sens dans la conscience individuelle suppose :
 - 20% d'exogène
 - 80% d'endogène
 
+## L'entretien de management
+
+Être capable de faire une mise au point, de recadrer, voire de sanctionner un collaborateur
+
+## L'entretien de sanction
+
+Procédure légale pour sanctionner un comportement, une faute ou une incompétence professionnelle.
+
+## L'entretien d'appréciation
+
+Dialogue, faire le point sur l'année écoulée, savoir ce que l'autre pense de moi, négocier les objectifs à venir, rémunération, formation, renégociation des "règles du jeu", promotion et carrière
+
 
 ----
 
@@ -474,6 +528,7 @@ Contruction du sens dans la conscience individuelle suppose :
 
 
 **Définition :** Processus de transfert qui responsabilise.
+Il s'agit de savoir déléguer en fonction de la responsabilité, des compétences et de l'autonomie du délégataire.
 
 **Finalité :** que chaque colaborateur se sente responsabilisé.
 
@@ -561,8 +616,8 @@ Enfin, se souvenir qu'un suivi régulier de la mise de l'atteinte des objectifs 
 
 
 ## La genèse des tensions sociales
-- tensions sociales
-- tensions individuelles
+- tensions sociales : revendications -> tracts -> débrayage -> grève
+- tensions individuelles : refus de coopération -> retard -> absentéisme -> baisse de rendement -> demande de mutation -> départ
 
 
 ## Différents types de conflits
@@ -592,9 +647,9 @@ Ramener communication : installer la boucle relationnelle.
 
 ## Aïkido relationnel
 
-1. **Accueil** accueillir et percevoir l'intention
-2. **Se mettre en phase** en alliance avec l'autre
-3. **Accompagnement** en fonction du contexte
+1. **Accueil** accueillir et percevoir l'intention => écoute => désamorcer le conflit
+2. **Se mettre en phase** en alliance avec l'autre => valoriser certains points
+3. **Accompagnement** en fonction du contexte => proposition
 
 Comment élargir sa vision du monde ? -> Le questionnement.
 
@@ -841,9 +896,24 @@ Théorie des droits acquis (ex : 5 semaines de congés payés)
 
 ## Le contrat de travail
 
-- un contrat synallagmatique
-- notion de contrat d'adhésion
+- un contrat synallagmatique ==> implique les 2 parties
+- notion de contrat d'adhésion (difficile de négocier les conditions d'embauche)
 - typologie de contrats (CDD, CDI, Intérim, portage salarial...)
 - le lien de subordination hiérarchique
+- les éléments constitutifs du contrat : identité, fonction, niveau hiérachique, durée de travail, rémunération, lieu de travail, ...
+- les clauses spéciales
+** non concurrence : limitée dans le temps et dans l'espace
+** mobilité géographique
+** restitution des biens de la société : concerne le matériel mis à votre disposition
+** relative à la création de logiciel : cession des droits d'auteur
+
+## Rémunération
+
+Basée sur des grilles mises en place et qui génère un salaire brut minimal en fonction de différents critères (ancienneté, expérience, ...)
+
+
+----
+
+
 
 
