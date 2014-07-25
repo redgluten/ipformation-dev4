@@ -91,7 +91,7 @@ RPS se chiffrent
 - développer de la "compétence" pour repérer les symptômes et identifier les facteurs de RPS
 - pratiquer un management favorisant le bien-être au travail
 
-Manager c’est contribuer à la pérennité de l’entreprise en anticipant, organisant et développant au mieux les ressources et les moyens.
+**Manager c’est contribuer à la pérennité de l’entreprise en anticipant, organisant et développant au mieux les ressources et les moyens.**
 
 Au-delà d’un certain seuil de compétences, la qualité humaine de manager devient essentielle.
 
