@@ -434,7 +434,6 @@ La gestion des tâches ingrates :
 *La procrastination est l'assassin de l'opportunité.*
 
 ## Gestion d’un agenda
-*La procrastination est l’assassin de l’opportunité.*
 
 
 Comment procéder :
