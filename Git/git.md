@@ -16,3 +16,9 @@ Git est un gestionnaire de version distribué (décentralisé).
 - GitHub pour [Windows](https://windows.github.com/) ou [Mac](https://mac.github.com/), gratuit
 - [Tower](http://www.git-tower.com/) Mac, payant
 - [SourceTree](http://www.sourcetreeapp.com/), Windows & Mac, gratuit
+- [Tortoise](http://tortoisesvn.net), Windows
+
+## Gestion de conflits
+
+- [kDiff](http://kdiff3.sourceforge.net), Multiplateforme, gratuit
+- [Kaleidoscope](http://www.kaleidoscopeapp.com), Mac, payant
