@@ -54,7 +54,7 @@ Montée en flèche de la "souffrance au travail" : progression des risques psych
 
 ## Montée en flèche de la souffrance au travail
 
-RPS concernent plusieurs disciplines :
+RPS (risques pyscho sociaux) concernent plusieurs disciplines :
 - juridique
 - psychologie du travail
 - management
@@ -83,7 +83,7 @@ RPS se chiffrent
 
 Anticiper, écouter, reconnaître...
 
-**Face aux RPS :**
+**Face aux RPS:**
 
 - s’approprier le rôle d’instance régulatrice du bien-être au travail avec les collaborateurs
 - prendre en compte les différentes dimensions émotionnelles, relationelles et comportementales des individus pour optimiser la performance dans la durée, pour lui et ses collaborateurs
