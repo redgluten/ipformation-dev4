@@ -91,7 +91,11 @@ Anticiper, écouter, reconnaître...
 - développer de la "compétence" pour repérer les symptômes et identifier les facteurs de RPS
 - pratiquer un management favorisant le bien-être au travail
 
+<<<<<<< HEAD
 Manager c'est contribuer à la perennité de l'entreprise en anticipant, organisant et développant au mieux les ressources et les moyens.
+=======
+Manager c’est contribuer à la pérennité de l’entreprise en anticipant, organisant et développant au mieux les ressources et les moyens.
+>>>>>>> 73ea7254a4d013fd5de20df4fc8b32c13e3e4578
 
 Au-delà d'un certain seuil de compétences, la qualité humaine de manager devient essentielle.
 
@@ -117,7 +121,7 @@ Modèle de Marston ou le management par les couleurs
 - rouge ==> dominant (action, énergique, exigeant)
 - jaune ==> influent (solaire, communicatif, sociable)
 - vert ==> stable (calme, coopérant, sérénité)
-- bleu ==> conformiste (convervatisme, organisation, formel, analytique)
+- bleu ==> conformiste (conservatisme, organisation, formel, analytique)
 
 # La collaboration dans une équipe ou dans un groupe
 
@@ -146,9 +150,14 @@ Viser relation Adulte/Adulte.
 
 ### Moi Parent
 
+<<<<<<< HEAD
 C'est le siège de "l'appris"
 N'est pas pris dans sens "ascendant/descendant" Caractérise un comportement issu, imité de nos propres parents.
+=======
+N’est pas pris dans sens « ascendant/descendant ». Caractérise un comportement issu, imité de nos propres parents.
+>>>>>>> 73ea7254a4d013fd5de20df4fc8b32c13e3e4578
 
+Siège de l'Appris :
 - normes
 - valeurs parentales traditionelles
 - règles sociales établies
@@ -173,8 +182,12 @@ Deux types :
 
 ### Moi enfant
 
+<<<<<<< HEAD
 C'est le siège du "senti"
 Historiquement premier, puisqu'apparait avec la naissance.
+=======
+Historiquement premier, puisqu’apparaît avec la naissance.
+>>>>>>> 73ea7254a4d013fd5de20df4fc8b32c13e3e4578
 
 Siège du senti :
 - sentiments
@@ -213,7 +226,11 @@ C'est le siège du "penser"
 - OK-OK- (se dévalorise et dévalorise l'autre) ==> dépression
 
 
+<<<<<<< HEAD
 ### 4 marques d'intérêt
+=======
+### 4 marques d’intérêt
+>>>>>>> 73ea7254a4d013fd5de20df4fc8b32c13e3e4578
 
 - Indispensable pour la survie biologique et psychologique
 - Source d'énergie positive ou négative
@@ -223,7 +240,7 @@ C'est le siège du "penser"
 Chacun de nous :
 - a son type préféré
 - va préférer des négatifs que rien du tout
-- pour fonctionner au meilleur de soi-même, nous avons besoin de dis foix plus de signes positifs que négatifs
+- pour fonctionner au meilleur de soi-même, nous avons besoin de dix foix plus de signes positifs que négatifs
 
 Une marque positive est :
 - spécifique
@@ -283,7 +300,7 @@ Il y a le temps objectif (Chronos), le temps de la montre et celle, subjective d
 
 ## Types de gestion
 
-- **Monochrome** : qui fait une seule chose à la fois
+- **Monochrone** : qui fait une seule chose à la fois
 - **Polychrone** : qui fait plusieurs choses à la fois
 - **Asynchrone** : qui fait les choses à contre temps
 
@@ -319,19 +336,26 @@ Loi de la contre-productivité du temps investi au-delà d'un certain seuil ou *
 Au-delà d'un certain seuil horaire le temps passé n'est plus efficace.
 
 **Equilibrer**
+<<<<<<< HEAD
 Savoir s'arrêter pour faire autre chose au-delà d'un certain seuil fixé.
 Sachez perséverer (et donc ne pas vous arrêter avant) sans vous obstiner. Refuser l'activisme et le perfectionnisme. soyez conscient(e) de vos limites.
+=======
+Savoir s’arrêter pour faire autre chose au-delà d’un certain seuil fixé.
+Sachez perséverer (et donc ne pas vous arrêter avant) sans vous obstiner. Refuser l’activisme et le perfectionnisme. Soyez conscient(e) de vos limites.
+>>>>>>> 73ea7254a4d013fd5de20df4fc8b32c13e3e4578
 
 **À éviter**
 Confondre quantité et qualité de travail.
 Vouloir en faire trop au risque de mal faire.
+
+*Le mieux est l'ennemi du bien*
 
 ## Loi de Carlson
 
 Ou **limitez les interruptions** (séquences homogènes de travail). Faire un travail en continu prend moins de temps qu'en plusieurs fois.
 
 **Lutter contre les interruptions**
-- terminer travail entrepris
+- terminer le travail entrepris
 - limitez les interruptions externes au moins à certains moments...
 - mettez en place des filtres, des barrages...
 
@@ -386,19 +410,25 @@ Considérer comme secondaire ce qui nous déplaît et le reporter indéfiniment.
 - ne pas remettre à plus tard les décisions à prendre
 - affecter un ordre de priorité aux tâches à accomplir
 - le travail programmé chasse les activités qui ne le sont pas
-- alterner les tâches de nature différente en évitant la dispertion
+- alterner les tâches de nature différente en évitant la dispersion
 
 ## Sortir du cadre et des habitudes
 Repérer les généralisations mises en place avec le temps. Les "on a toujours fait comme ça". Être créatif dans les moments importants.
 
 ## Symptômes d'une mauvaise gestion du temps
 
-1. **Horaires continuellement surchargés** obligation fréquente de travailler le soir, ne jamais ou preque prendre de vacances
+1. **Horaires continuellement surchargés** obligation fréquente de travailler le soir, ne jamais ou presque prendre de vacances
 2. **Délais non respectés**, retards constants, sentiment de toujours devoir faire du rattrapage
 3. **Manque de profondeur** dans le traitement des problèmes
+<<<<<<< HEAD
 4. **Décisions hâtives**, malgré le risque qu'elles comportent
 5. **Crainte de déléguer** ou refus d'accepter les initiatives des autres
 6. **Privilégier le court terme**, au dépends du moyen ou du long terme, éteindre constamment des "feux", vivre des crises quotidiennes
+=======
+4. **Décisions hâtives**, malgré le risque qu’elles comportent
+5. **Crainte de déléguer** ou refus d’accepter les initiatives des autres
+6. **Privilégier le court terme**, au dépens du moyen ou du long terme, éteindre constamment des « feux », vivre des crises quotidiennes
+>>>>>>> 73ea7254a4d013fd5de20df4fc8b32c13e3e4578
 7. **Impossibilité de refuser** toutes nouvelles tâches qui se présentent
 8. **Pas de disponibilité** pour un rendez-vous avant deux mois (même un mois est excessif)
 9. **Sentiment de ne pas contrôler la situation** de perdre de vue ses objectifs et ses priorités
@@ -426,7 +456,13 @@ La gestion des tâches ingrates :
 
 **Sérendipité** : être ouvert aux opportunités, à la surprise.
 
+<<<<<<< HEAD
 ## Gestion d'un agenda
+=======
+*La procrastination est l'assassin de l'opportunité.*
+
+## Gestion d’un agenda
+>>>>>>> 73ea7254a4d013fd5de20df4fc8b32c13e3e4578
 
 Comment procéder :
 - faire des **listes**
@@ -466,12 +502,12 @@ Prévoir **deux choses importantes** par jour et **5 ou 6 peu importantes**.
 Le plan des besoins ou pyramide de Maslow
 
 1. physiologiques
-2. sureté et sécurité
+2. sûreté et sécurité
 3. amour et appartenance
 4. considération
 5. réalisation de soi
 
-Plus le besoin est est élevé plus le levier de motivation est important.
+Plus le besoin est élevé, plus le levier de motivation est important.
 
 Le travail subi est le plus mauvais à la santé.
 
@@ -481,10 +517,17 @@ Le travail subi est le plus mauvais à la santé.
 
 ## Maintenir un bon rapport
 
+<<<<<<< HEAD
 - Synchronisation (flexibilité, ressemblance sur la forme ou sur le but poursuivi)
 - Augmenter ancrage ressource (expérience positive dans passé créé lien fort)
 - Reconnaissance, écoute, valorisation
 - Authenticité (simple, clair, direct), Congruence
+=======
+- **Synchronisation** (flexibilité, ressemblance sur la forme ou sur le but poursuivi)
+- Augmenter **ancrage ressource** (expérience positive ou négative dans le passé créé des liens forts)
+- **Reconnaissance**, écoute, valorisation
+- **Authenticité** (simple, clair, direct), **Congruence**
+>>>>>>> 73ea7254a4d013fd5de20df4fc8b32c13e3e4578
 
 ## Définition des besoins
 
@@ -631,12 +674,21 @@ Enfin, se souvenir qu'un suivi régulier de la mise de l'atteinte des objectifs 
 
 ## La communication
 
+<<<<<<< HEAD
 1. **Écoute silencieuse** : deux raisons d'intervenir, montrez que vous suivez, ou que ne suivez plus en partant de ce que vous avez saisi
 2. **Le résumé** : synthèse de ce qui a été dit et ressenti, sans ajouter d'information :
 	- arrêtez votre interlocuteur en lui montrant que vous l'avez entendu
 	- accusez réception de l'information donnée
 	- l'objectif est d'obteni un "oui"
 3. **La relance** : pour obtenir des compléments d'information
+=======
+1. **Écoute silencieuse** : deux raisons d’intervenir, montrez que vous suivez, ou que ne suivez plus en partant de ce que vous avez saisi
+2. **Le résumé** : synthèse de ce qui a été dit et ressenti, sans ajouter d’information :
+	- arrêtez votre interlocuteur en lui montrant que vous l’avez entendu
+	- accusez réception de l’information donnée
+	- l’objectif est d’obtenir un « oui »
+3. **La relance** : pour obtenir des compléments d’information
+>>>>>>> 73ea7254a4d013fd5de20df4fc8b32c13e3e4578
 	- Reprenez la dernière phrase sous la forme interrogative
 	- "Cliquez" sur un mot important pour chercher l'expérience qui lui est associée
 
@@ -654,7 +706,7 @@ Ramener communication : installer la boucle relationnelle.
 Comment élargir sa vision du monde ? -> Le questionnement.
 
 
-## Triangle de Karpman ou Triange dramatique
+## Triangle de Karpman ou Triangle dramatique
 
 Angles :
 - pérsécuteur (je suis en droit)
@@ -716,30 +768,51 @@ La manipulation engendre une ambiance peu propice au travail d'équipe à la syn
 - **défendre** ses droits dans le respect des droits de l'autre
 - **exprimer** sa "vérité" personnelle face à l'autre donc être soi-même sans dissimuler ses sentiments
 - **gérer** sereinement et sainement son environnement
+<<<<<<< HEAD
 - **négocier** sur la base d'objectifs précis et clairement affichés en cherchant des compromis "écologiques", réalisates et acceptables, dans l'intéret mutuel et commun.
 - **être à l'aise** dans la confrontation
 - **mettre en place** des rapports fondés sur *l'entente et la coopération* plutôt que sur l'affrontement
+=======
+- **négocier** sur la base d’objectifs précis et clairement affichés en cherchant des compromis « écologiques », réalisables et acceptables, dans l’intéret mutuel et commun.
+- **être à l’aise** dans la confrontation
+- **mettre en place** des rapports fondés sur *l’entente et la coopération* plutôt que sur l’affrontement
+>>>>>>> 73ea7254a4d013fd5de20df4fc8b32c13e3e4578
 
 Non assertifs :
 - chercher à se faire aimer à tout prix
 - mettre l'autre dans la dépendance ou le besoin
 
 Comment tendre vers :
+<<<<<<< HEAD
 - la conscience de sa propre indentié
 - des comportements adaptés aux situations Et respectueux de sa personnalité
 - l'authenticité et l'ouverture : sur le monde, vers les autres, par rapport à soi-même
 - le changement
 
 L'assertivité permet à chacun d'exprimer sa personnalité tout en étant accepté dans le cadres socioprofessionnel sans générer de réactions négatives de l'entourage.
+=======
+- la conscience de sa propre identité
+- des comportements adaptés aux situations et respectueux de sa personnalité
+- l’authenticité et l’ouverture : sur le monde, vers les autres, par rapport à soi-même
+- le changement
+
+L’assertivité permet à chacun d’exprimer sa personnalité tout en étant accepté dans le cadre socio-professionnel sans générer de réactions négatives de l’entourage.
+>>>>>>> 73ea7254a4d013fd5de20df4fc8b32c13e3e4578
 
 Pour éviter de paraître aggressif :
 - **exprimer ses droits** et **être responsable de ses actes**
 - **savoir exprimer** ses points forts, ses limites, ses points d'amélioration
 - **trouver l'équilibre** entre le respect de soi-même et le respect des idées de l'autre
 - **savoir dire non sans se justifier** : différence entre justification et explication
+<<<<<<< HEAD
 - connaître son objectif et saoir l'expliquer
 - oser demander des explications quand on n'a pas compris
 - vérifier que ce qui a été expliqué a été compris comme tel
+=======
+- connaître son objectif et savoir l’expliquer
+- oser demander des explications quand on n’a pas compris
+- vérifier que ce qui a été expliqué, a été compris comme tel
+>>>>>>> 73ea7254a4d013fd5de20df4fc8b32c13e3e4578
 - oser exprimer ses sentiments et ses émotions
 
 ## Synthèse
@@ -816,7 +889,11 @@ Pèse sur moi le devoir de pédagogie, pèse sur moi la charge de la preuve.
 
 3. Projets de carrière
 	- Quels sont vos objectifs professionnels à court-moyen-long terme ?
+<<<<<<< HEAD
 	- qu'est-ce qui vous permet de pense que vous réussirez dans l'emploi que nous vous proposons ?
+=======
+	- qu’est-ce qui vous permet de penser que vous réussirez dans l’emploi que nous vous proposons ?
+>>>>>>> 73ea7254a4d013fd5de20df4fc8b32c13e3e4578
 	- Comment vous représentez-vous le poste que nous proposons ?
 
 4. La personnalité
@@ -828,7 +905,7 @@ Pèse sur moi le devoir de pédagogie, pèse sur moi la charge de la preuve.
 5. Comportement au travail
 	- Comment réagissez-vous face à la hiérarchie ?
 	- Aimez-vous travailler en groupe ? Pourquoi ?
-	- Comment vous intégrer dans une équipe ?
+	- Comment vous intégrez vous dans une équipe ?
 	- Comment organisez-vous votre travail ?
 
 6. Contraintes
@@ -848,8 +925,13 @@ Pèse sur moi le devoir de pédagogie, pèse sur moi la charge de la preuve.
 	- Quel était le montant de votre salaire antérieur ?
 	- Que désirez-vous gagner chez nous ? Quelles sont vos prétentions de salaire ?
 
+<<<<<<< HEAD
 9. Situation familiale
 	- Êtes-vous marié, célibatair, veuf, divorcé ?
+=======
+9. **Situation familiale**
+	- Êtes-vous marié, célibataire, veuf, divorcé ?
+>>>>>>> 73ea7254a4d013fd5de20df4fc8b32c13e3e4578
 
 10. Activités extra-professionnels
 	- Quelles sont vos activités extra-professionnelles ?
