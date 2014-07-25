@@ -431,7 +431,7 @@ La gestion des tâches ingrates :
 
 **Sérendipité** : être ouvert aux opportunités, à la surprise.
 
-*La procrastination est l'assassin de l'opportunité.*
+*La procrastination est l’assassin de l’opportunité.*
 
 ## Gestion d’un agenda
 
