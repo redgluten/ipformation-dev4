@@ -83,7 +83,7 @@ RPS se chiffrent
 
 Anticiper, écouter, reconnaître...
 
-**Face aux RPS :**
+**Face aux RPS (risques pyscho sociaux):**
 
 - s'approprier le rôle d'instance régulatrice du bien-être au travail avec les collaborateurs
 - prendre en compte les différentes dimensions émotionnelles, relationelles et comportementales des individus pour optimiser la performance dans la durée, pour lui et ses collaborateurs
