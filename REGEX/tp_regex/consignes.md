@@ -1,6 +1,6 @@
 # TP Regex
 
-Astuce, retrovuez la Regex sur l'IP pour le 255.
+Astuce, retrouvez la Regex sur les IP pour le 255.
 
 ## Énoncé
 À partir d’un fichier CSS correct :
