@@ -6,6 +6,7 @@ Git est un gestionnaire de version distribué (décentralisé).
 - [Documentation officielle](http://git-scm.com/book/fr)
 - Essayez Git de manière interactive : [Try Git](https://try.github.io/)
 - [Un bon tutorial en français](https://www.atlassian.com/fr/git/tutorial/git-basics) sur le site d’Atlassian
+- [Un très bon tutorial en anglais](http://www.git-tower.com/learn/ebook/mac/introduction) sur le site de git Tower
 - Serveurs de dépôts Git :
     - [GitHub](https://github.com/) gratuit pour l’open-source, payant pour le privé
     - [Bitbucket](https://bitbucket.org/) gratuit pour le privé ou l’open-source avec des limites
@@ -22,3 +23,11 @@ Git est un gestionnaire de version distribué (décentralisé).
 
 - [kDiff](http://kdiff3.sourceforge.net), Multiplateforme, gratuit
 - [Kaleidoscope](http://www.kaleidoscopeapp.com), Mac, payant
+
+
+## Commandes principales
+
+- `git clone <url>` crée une copie locale du dépôt
+- `git add -A` ajoute tous les fichiers non présents ou modifiés dans l’index
+- `git commit -a -m "commentaire"` enregistre les modifications sur le dépôt local
+- `git pull` 
