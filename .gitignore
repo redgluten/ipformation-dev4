@@ -1,0 +1,15 @@
+# gitignore
+
+# OS-specific
+.DS_Store
+
+# IDE junk
+.idea/*
+*.iml
+
+# Frontend tools junk
+.sass-cache
+
+# Vagrant stuff
+Vagrantfile
+.vagrant
