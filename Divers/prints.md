@@ -14,7 +14,7 @@
 
 `$format = "Bonjour, %s";` 's' signifie 'string'
 `$string = sprintf($format, "Batman")`
-echo $string donnera => "Bonjour, Batman"
+`echo $string donnera => "Bonjour, Batman"`
 
 ## Spécificateurs de type
 
