@@ -4,7 +4,7 @@
 
 #####`int printf(string, $format, [$arg, [, $arg]])`, 
 valeur de retour : taille chaîne affichée
-#####`mixed sprintf(string $format, [$arg, [,$arg]])`, 
+#####`string sprintf(string $format, [$arg, [,$arg]])`, 
 valeur de retour : chaîne formatée
 #####`string vsprintf(string $format, array $args)`, 
 valeur de retour : chaîne formatée
