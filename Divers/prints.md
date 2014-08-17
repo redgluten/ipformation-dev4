@@ -12,9 +12,9 @@
 - integer => %d, %u, %c, %o, %x, %X, %b
 - double => %g, %g, %e, %E, %f, %f
 
-`$format = "Bonjour, %s";` 's' signifie 'string'
-`$string = sprintf($format, "Batman")`
-`echo $string => "Bonjour, Batman"`
+`$format = "Bonjour, %s";` 's' signifie 'string'  
+`$string = sprintf($format, "Batman")`  
+`echo $string => "Bonjour, Batman"`  
 
 ## Spécificateurs de type
 
