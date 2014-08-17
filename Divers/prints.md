@@ -66,3 +66,25 @@ Les spécificateurs de type
 - `g` : raccourci pour %e et %f
 - `G` : raccourci pour %E et %F
 - `f` : l’argument est traité comme un nombre à virgule flottante tenant compte de la locale utilisée
+
+# sscanf  
+
+sscanf() est l'inverse de la fonction printf(). sscanf() lit des données dans la chaîne $str, et l'interprète en fonction du format $format.  
+
+## La fonction
+
+#####`mixed sscanf(string $str, string $format, [, &$scan])`, 
+valeur de retour : Si seulement deux paramètres sont fournis, les valeurs trouvées seront retournées sous forme de tableau. Sinon, si le paramètre optionnel sont fourni, la fonction retournera le nombre de valeurs assignées. Le paramètre optionnel doit être passé par référence.
+
+Exemple :  
+
+<?php
+			// Lecture d'un numéro de série  
+			list($serial) = sscanf("SN/2350001", "SN/%d");  
+			// et la date de fabrication  
+			$mandate = "January 01 2000";  
+			sscanf($mandate, "%s %d %d", $month, $day, $year);  
+			
+			echo "Le produit $serial a été fabriqué le : $year-" . substr($month, 0, 3) . "-$day\n";  
+	?>  
+	
