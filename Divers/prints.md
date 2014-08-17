@@ -87,3 +87,8 @@ Exemple :
 	echo "Le produit $serial a été fabriqué le : $year-" . substr($month, 0, 3) . "-$day\n";  
 	?>  
 	
+# fscanf  
+
+Analyse un fichier en fonction d'un format  
+
+La fonction fscanf() est similaire à la fonction sscanf(), sauf qu'elle prend un fichier en entrée, représentée par la ressource handle et interprète l'entrée en fonction du format format spécifié.
