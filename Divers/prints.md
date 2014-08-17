@@ -2,9 +2,12 @@
 
 ## Les fonctions
 
-`int printf(string, $format, [$arg, [, $arg]])`, valeur de retour : taille chaîne affichée
-`mixed sprintf(string $format, [$arg, [,$arg]])`, valeur de retour : chaîne formatée
-`sprintf vsprintf(string $format, array $args)`, valeur de retour : chaîne formatée
+#####`int printf(string, $format, [$arg, [, $arg]])`, 
+valeur de retour : taille chaîne affichée
+#####`mixed sprintf(string $format, [$arg, [,$arg]])`, 
+valeur de retour : chaîne formatée
+#####`sprintf vsprintf(string $format, array $args)`, 
+valeur de retour : chaîne formatée
 
 ## Types
 
