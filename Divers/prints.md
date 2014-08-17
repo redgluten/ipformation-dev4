@@ -18,7 +18,7 @@
 
 ## Le masque suit plusieurs règles
 
-### Le masque est déterminé par le signe de pourcentage (%).
+###### Le masque est déterminé par le signe de pourcentage (%).
 
 ### S'il n'y a pas de spécificateur de position (1$) le masque prend les arguments dans l'ordre énoncé.  
 
