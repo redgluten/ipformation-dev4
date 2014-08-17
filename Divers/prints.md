@@ -18,15 +18,25 @@
 
 ## Le masque suit plusieurs règles
 
-1- Le masque est déterminé par le signe de pourcentage (%).  
+1- Le masque est déterminé par le signe de pourcentage (%).
+
 2- S'il n'y a pas de spécificateur de position (1$) le masque prend les arguments dans l'ordre énoncé.  
+
 3- Un remplisseur optionnel indique quel caractère sera utilisé pour compléter le résultat jusqu'à la longueur requise. Par défaut, le remplissage se fait avec des espaces. Ce peut être le caractère d'espace, ou le caractère 0. Un autre caractère de remplissage peut être spécifié en le préfixant avec un guillemet simple (').  
 
 Exemples : 
-      %010s	Remplissage avec le caractère "0" jusqu'a la longueur 10;
-			%10s 	Remplissage avec le caractère " " jusqu'a la longueur 10; (espace)
-			%'#10s  Remplissage avec le caractère "#" jusqu'a la longueur 10;
-4- 
+- %010s		Remplissage avec le caractère "0" jusqu'a la longueur 10  
+- %10s 		Remplissage avec le caractère " " jusqu'a la longueur 10 (espace)  
+- %'#10s  	Remplissage avec le caractère "#" jusqu'a la longueur 10  
+
+4- Un spécificateur d'alignement qui indique si le résultat doit être aligné à gauche ou à droite. Par défaut, le résultat est aligné à droite. Le caractère - fera que le résultat sera justifié à gauche. 
+
+Exemples : 
+- %-10s		Remplissage avec le caractère " " jusqu'a la longueur 10 justifier à gauche  
+- %10s		Remplissage avec le caractère " " jusqu'a la longueur 10 justifier à droite  
+- %-010s	Remplissage avec le caractère "0" jusqu'a la longueur 10 justifier à gauche  
+
+5- 
 ## Spécificateurs de type
 
 - `s` : l’argument est traité et présenté comme une chaîne de caractères.
