@@ -79,12 +79,11 @@ valeur de retour : Si seulement deux paramètres sont fournis, les valeurs trouv
 Exemple :  
 
 <?php
-			// Lecture d'un numéro de série  
-			list($serial) = sscanf("SN/2350001", "SN/%d");  
-			// et la date de fabrication  
-			$mandate = "January 01 2000";  
-			sscanf($mandate, "%s %d %d", $month, $day, $year);  
-			
-			echo "Le produit $serial a été fabriqué le : $year-" . substr($month, 0, 3) . "-$day\n";  
-	?>  
+	// Lecture d'un numéro de série  
+	list($serial) = sscanf("SN/2350001", "SN/%d");  
+	// et la date de fabrication  
+	$mandate = "January 01 2000";  
+	sscanf($mandate, "%s %d %d", $month, $day, $year);  
+	echo "Le produit $serial a été fabriqué le : $year-" . substr($month, 0, 3) . "-$day\n";  
+?>  
 	
