@@ -38,16 +38,17 @@ Exemples :
 - %10s		Remplissage avec le caractère " " jusqu'a la longueur 10 justifier à droite  
 - %-010s	Remplissage avec le caractère "0" jusqu'a la longueur 10 justifier à gauche  
 
-### Un spécificateur de taille optionnel, indique le nombre minimum de caractères que cette conversion doit fournir en résultat.  
+##### Un spécificateur de taille optionnel, indique le nombre minimum de caractères que cette conversion doit fournir en résultat.  
 
-### Un spécificateur de précision optionnel, de la forme d'un point ("."), suivi par un nombre de décimales qui doivent être affichées pour les nombres décimaux. Lorsque vous utilisez ce spécificateur dans une chaîne, il agit comme un point de coupure, définissant une limite maximale de caractères de la chaîne.
+##### Un spécificateur de précision optionnel, de la forme d'un point ("."), suivi par un nombre de décimales qui doivent être affichées pour les nombres décimaux.  
+Lorsque vous utilisez ce spécificateur dans une chaîne, il agit comme un point de coupure, définissant une limite maximale de caractères de la chaîne.
 
 Exemples : 
 - %10.10s	Justification à gauche mais avec une coupure à 10 caractères  
 
-### Un spécificateur de type qui indique le type avec lequel l'argument sera traité.  
+##### Un spécificateur de type qui indique le type avec lequel l'argument sera traité.  
 
-Spécificateurs de type
+Les spécificateurs de type
 
 - `s` : l’argument est traité et présenté comme une chaîne de caractères.
 - `d` : l’argument est traité commen un entier et présenté comme un nombre entier (en base 10), signé
