@@ -150,4 +150,4 @@ Exemple :
 
 ## Liens utiles
 
-- [PHP5 : La gestion avancée des dates](http://julien-pauli.developpez.com/tutoriels/php/)dates/
+- [PHP5 : La gestion avancée des dates](http://julien-pauli.developpez.com/tutoriels/php/dates/)
