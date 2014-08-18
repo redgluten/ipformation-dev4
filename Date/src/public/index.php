@@ -3,7 +3,18 @@
 echo '<h1>Dates en PHP </h1>';
 
 // La définition d’un tz est obligatoire (à faire de préférence dans le php.ini)
-ini_set('date.timezone', 'Europe/Paris');
+//ini_set('date.timezone', 'Europe/Paris');
+// Alternativement
+//date_default_timezone_set('Europe/Paris');
+
+// Vérifier que les timezones correspondent
+if (strcmp(date_default_timezone_get(), ini_get('date.timezone'))) {
+    echo 'Tz du script différente de la TZ globale' . PHP_EOL;
+} else {
+    echo 'Tz du script et TZ globale identiques' . PHP_EOL;
+}
+
+
 
 echo '<pre>';
 
