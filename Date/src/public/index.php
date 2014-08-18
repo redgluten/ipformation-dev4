@@ -64,5 +64,12 @@ $hours   = $tmp % 24;
 $days     = floor(($tmp - $hours) / 24);
 
 
+echo '<h2>Objet</h2>';
+
+$d1 = new DateTime();
+print_r($d1);
+
+$d2 = new DateTime('2014-');
+
 
 echo '</pre>';

@@ -42,8 +42,7 @@ Exemple avec la fonction `strftime` qui formate une date/heure locale avec la co
 
 ### Opérations sur les dates en procédural
 
-
-Différence entre deux dates en Jours, heures, minutes secondes :
+Différence entre deux dates en jours, heures, minutes secondes :
 
     $d1 = '2014-08-08 03:25:47';
     $d2 = '2014-04-13 05:28:13';
@@ -61,8 +60,9 @@ Différence entre deux dates en Jours, heures, minutes secondes :
 
 
 
-
 ## Approche objet
+
+L’approche objet des dates en PHP utilise la classe `DateTime`. Exemple d’instantiation d’un objet : `$d1 = new DateTime()`.
 
 
 
