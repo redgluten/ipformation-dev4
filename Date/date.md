@@ -97,6 +97,7 @@ Attention avec le timestamp UNIX, le résultat reste en UTC
     echo $d6->format('Y-m-d H:i:s');
 
 UTC contournable en applicant la TZ après la construction du DateTime
+
     $d6 = setTimezone(new DateTimezone('Europe/Paris'));
     echo $d6->format('Y-m-d H:i:s');
 
@@ -112,3 +113,41 @@ Attention également aux dates nulles de MySQL
     
     $d9 = new DateTime('0000-00-00');
     echo $d9->format('Y-m-d H:i:s');
+
+
+Il existe une interface procédurale pour les objets date
+
+    $d10 = date_create('@123456');
+    print_r($d10);
+
+Fonction `add` :
+
+    $d11 = new DateTime();
+    $d11->add(new DateInterval('P1Y3M10DT11H12M15S'));
+    echo $d11->format('Y-m-d H:i:s');
+
+    $d12 = new DateTime();
+
+Fonction `modify` :
+
+    $d13 = new DateTime();
+    $d13->modify('+1 day');
+    echo $d13->format('Y-m-d H:i:s') . PHP_EOL;
+
+Exemple :
+
+     $start = new DateTime();
+     $end   = new DateTime();
+     $end->modify('+2 month');
+     $interval = DateInterval::createFromDateString('Friday of next week');
+     $period   = new DatePeriod($start, $interval, $end, DatePeriod::EXCLUDE_STRING);
+     print_r($period);
+     echo 'Periode : ' . PHP_EOL;
+     foreach ($period as $d) {
+         echo $d->format('Y-m-d') . PHP_EOL;
+     }
+
+
+## Liens utiles
+
+- [PHP5 : La gestion avancée des dates](http://julien-pauli.developpez.com/tutoriels/php/)dates/

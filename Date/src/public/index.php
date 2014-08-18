@@ -76,5 +76,23 @@ print_r($d2);
 $diff = $d2->diff($d1, true);
 print_r($diff);
 
+$d12 = new
+$d12->sub
+
+$d13 = new DateTime();
+$d13->modify('+1 day');
+echo $d13->format('Y-m-d H:i:s') . PHP_EOL;
+
+ $start = new DateTime();
+ $end   = new DateTime();
+ $end->modify('+2 month');
+ $interval = DateInterval::createFromDateString('Friday of next week');
+ $period   = new DatePeriod($start, $interval, $end, DatePeriod::EXCLUDE_STRING);
+ print_r($period);
+ echo 'Periode : ' . PHP_EOL;
+ foreach ($period as $d) {
+     echo $d->format('Y-m-d') . PHP_EOL;
+ }
+
 
 echo '</pre>';
