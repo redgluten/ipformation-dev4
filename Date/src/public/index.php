@@ -48,4 +48,21 @@ echo date('N') . PHP_EOL;
 echo date('z') . PHP_EOL; // jour de l’année
 
 
+
+$d1 = '2014-08-08 03:25:47';
+$d2 = '2014-04-13 05:28:13';
+
+$t1 = strtotime($d1);
+$t2 = strtotime($d2);
+
+$diffs   = abs($t2 - $t1);
+$seconds = $diffs % 60;
+$tmp     = floor(($diffs - $seconds) / 60);
+$minutes = $tmp % 60;
+$tmp     = floor(($tmp - $minutes) / 60);
+$hours   = $tmp % 24;
+$days     = floor(($tmp - $hours) / 24);
+
+
+
 echo '</pre>';
