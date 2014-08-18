@@ -63,6 +63,52 @@ Différence entre deux dates en jours, heures, minutes secondes :
 ## Approche objet
 
 L’approche objet des dates en PHP utilise la classe `DateTime`. Exemple d’instantiation d’un objet : `$d1 = new DateTime()`.
+     
+    $d1 = new DateTime();
+    print_r($d1);
+
+    $d2 = new DateTime('2014-08-15 12:27:30.15632');
+    print_r($d2);
 
 
+L’objet possède des méthodes pour les opérations courantes. Exemple de la fonction `diff` qui permet de faire une comparaison entre les dates :
 
+    $diff = $d2->diff($d1, true);
+    print_r($diff);
+
+La fonction `format` quand à elle permet de formater le résultat :
+
+    $d3 = new DateTime('NOW');
+    echo $d3->format('Y-m-d h:i:s');
+
+Utilisation avec un *timestamp* UNIX (attention au @) :
+
+    $d4 = new DateTime('@123456');
+    echo $d4->format('Y-m-d Hi:s');
+
+Il est également possible de créer une TZ :
+
+    $d5 = new DateTime('@123456', new DateTimezone('Europe/Paris'));
+    echo $d5->format('Y-m-d H:i:s');
+
+Attention avec le timestamp UNIX, le résultat reste en UTC
+
+    $d6 = new DateTime('@123456', new DateTimezone('Europe/Paris'));
+    echo $d6->format('Y-m-d H:i:s');
+
+UTC contournable en applicant la TZ après la construction du DateTime
+    $d6 = setTimezone(new DateTimezone('Europe/Paris'));
+    echo $d6->format('Y-m-d H:i:s');
+
+Attention aux dates inférieures ou supérieures à 9999 années (résultat imprévisible)
+
+    $d7 = new DateTime('-8500-08-15');
+    echo $d7->format('Y-m-d H:i:s');
+
+    $d8 = new DateTime('-10001-08-15');
+    echo $d8->format('Y-m-d H:i:s');
+
+Attention également aux dates nulles de MySQL
+    
+    $d9 = new DateTime('0000-00-00');
+    echo $d9->format('Y-m-d H:i:s');

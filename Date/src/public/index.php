@@ -69,7 +69,12 @@ echo '<h2>Objet</h2>';
 $d1 = new DateTime();
 print_r($d1);
 
-$d2 = new DateTime('2014-');
+$d2 = new DateTime('2014-08-15 12:27:30.15632');
+print_r($d2);
+
+// L’objet possède des méthodes pour les opérations courantes
+$diff = $d2->diff($d1, true);
+print_r($diff);
 
 
 echo '</pre>';
