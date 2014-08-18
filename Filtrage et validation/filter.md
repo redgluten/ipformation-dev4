@@ -59,6 +59,21 @@ Exemple de création d’un filtre
     );
     var_dump($result);
 
+Connaître la liste des filtres disponibles sur une installation donnée : `filter_list()`.
+
+### Valeurs externes 
+
+`filter_input (INPUT_GET, 'username', FILTER_SANITIZE_FULL_SPECIAL_CHARS)`
+
+    $options = array(
+        'username' => FILTER_SANITIZE_FULL_SPECIAL_CHARS,
+        'password' => array(
+            'filter' => FILTER_VALIDATE_INT,
+            'options' => array('min_range' => 10, 'max_range' => 20)
+        )
+    );
+    $result = filter_input_array(INPUT_GET, $options);
+    var_dump($result);
 
 
 ## Liens utiles
