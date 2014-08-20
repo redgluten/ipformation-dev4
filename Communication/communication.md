@@ -68,9 +68,41 @@ Elle est l’écho de votre humeur : __cela s’entend__ !
 - Des temps de pause pour reprendre son souffle
 - Des silences décidés et pas subis
 
+### Comment diminuer le stress
+
+- __S’organiser__ (pensées bien ordonnées)
+- __Visualiser__
+- __S’entraîner__ (debout)
+- __Respirer__
+- __Se concentrer sur la relaxation__ (je suis détendu)
+- __Relâcher la tension sur tou le corps de bas en haut__
+- __Bouger dès le début de l’intervetion__
+
+Établir un contact visuel avec l’auditoire.
+
+### La proxémie
+
+Ce sont les __distances sociales naturelles__ auxquelles les personnes se tiennent selon les différentes situations de la vie sociale et selon les individus à qui elles ont à faire.
+
+Nous distinguons __4 cercles__ de notre espace vital :
+
+### Les 4 cercles de l’espace vital
+
+- Espace __intime__ (De 0 à 50cm)
+- Espace __privé__  (De 50 à 120cm)
+- Espace __social__ (De 120 à 240cm)
+- Espace __public__ (De 240 à 350cm)
+
+### Les 3 canaux d’expression
+
+- le __verbal__ : les mots (10 %)
+- le __para-verbal__ : rythme, intonation, voix (55 %)
+- le __non-verbal__ : gestes, mimiques… (35 %)
 
 
+#### Le bonjour
 
+L’attention que vous donnez à une personne lors du bonjour se manifeste 
 
 
 
