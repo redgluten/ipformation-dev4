@@ -13,3 +13,4 @@ Retard au travail => catastrophique et inexcusable => problème en terme de gest
 
 Prendre la parole = acte physique => expérimentation (sensations physiques).  
 Humour ou double sens : attention avec qui ont le fait => feed-back. 
+Reprendre confiance en racontant quelque chose qui nous est arrivé => on devient convaincant. 
