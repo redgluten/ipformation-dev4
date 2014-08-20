@@ -5,6 +5,7 @@
 - [PhpMyAdmin](http://www.phpmyadmin.net/home_page/index.php) interface web, gratuit, open-source
 - [Sequel Pro](http://www.sequelpro.com) appli mac, gratuit, open-source
 - [DBBeaver](http://dbeaver.jkiss.org) appli multiplateforme, gratuit, open-source
+- [Les transactions avec MySQL et PDO](http://fr.openclassrooms.com/informatique/cours/les-transactions-avec-mysql-et-pdo)
 
 ## Moteurs de tables
 
@@ -24,6 +25,7 @@
 
 Exemple de connexion :
 
+```php
     $link = mysqli_connect('127.0.0.1', 'project', '0000', 'project');
     if (!$link) {
         echo 'Erreur de connexion MySQL';
@@ -32,6 +34,7 @@ Exemple de connexion :
         echo mysqli_get_host_info($link) . PHP_EOL;
     }
     mysqli_close($link);
+```
 
 Fetch de la base :
 
