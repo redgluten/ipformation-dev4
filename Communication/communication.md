@@ -70,7 +70,7 @@ Elle est l’écho de votre humeur : __cela s’entend__ !
 
 ## Comment diminuer le stress
 
-Émotions négatives : dégoût, tristesse, colère et peur => génère du stress.  
+Émotions négatives (dégoût, tristesse, colère et peur) génèrent du stress.  
 
 - S’organiser (pensées bien ordonnées)
 - Visualiser
