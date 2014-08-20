@@ -104,12 +104,32 @@ Nous distinguons __4 cercles__ de notre espace vital :
 ### Comment faire une bonne impression au 1er contact
 
 __Reconnaissance__ : se traduit par le fait que vous existez, que l’on vous remarque.
+
 Comment ? Le bonjour, montrez de l’intérêt à quelqu’un en lui disant bonjour, c’est le regarder, l’écouter, lui sourire.
 Les actes en disent plus que les paroles. Le sourire dit « Vous me plaisez… Je suis content de vous voir, de faire votre connaissance… ».
+Sachez __écouter__ votre interlocuteur, ne lui coupez pas la parole, encouragez le à parler de lui, parlez à votre interlocuteur de ce qui l’intéresse, c’est lui susciter de l’intérêt.
+Rappelez-vous de son __prénom__ et/ou de son __nom__. Le nom d’une personne revêt pour elle une grande importance.
+N’essayez pas de vous valoriser, mais __valorisez les autres__. C’est là que vous prendrez de la valeur.
+__Faîtes sentir aux autres leur importance__ et __faîtes le sincèrement__.
 
-#### Le bonjour
+### Influence ou manipulation ?
 
-L’attention que vous donnez à une personne lors du bonjour se manifeste 
+- Influence (positive) : emmener l’interlocuteur là où c’est bon pour lui
+- Manipulation (négative) : emmener mon interlocuteur là où c’est bon pour moi à son détriment
+
+La différence est dans __l’intention__.
+
+Rappel : la __construction du sens__ dans la conscience individuelle suppose :
+- 20 % __d’exogène__
+- 80 % __d’endogène__
+
+----
+
+## Gérer son stress
+
+Définition du __stress__ : réaction _physiologique_ et _psychologique_ d’alarme (altertes émotionnels) et de défense de l’organisme face à une pression d’origine positive ou négative.
+
+Définition de la __pression__ : sentiment de _malaise_ qui résulte du désir intense d’être ou de faire quelque chose de plus, acommpagné pat l’inquiétude et la peur de l’échec.
 
 
 
