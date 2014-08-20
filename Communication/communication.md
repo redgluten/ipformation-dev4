@@ -58,8 +58,8 @@ Elle est l’écho de votre humeur : __cela s’entend__ !
 
 - L’articulation
 - La prononciation
-- Le débit / le rythme
-- Les silences
+- Le débit / le rythme => rompre la monotonie du discours
+- Les silences => rompre la monotonie du discours
 
 ### La respiration
 
