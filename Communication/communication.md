@@ -48,8 +48,8 @@ Entre ce qu’on dit et ce qui va être retenu il y a une très importante dépe
 
 - Agréable
 - Naturelle
-- Dynamique
-- Expressive
+- Dynamique => capter l'attention de l'auditeur
+- Expressive => cohérente avec son attitude
 - Perceptible
 
 Elle est l’écho de votre humeur : __cela s’entend__ !
