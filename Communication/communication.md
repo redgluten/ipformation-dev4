@@ -101,6 +101,11 @@ Nous distinguons __4 cercles__ de notre espace vital :
 - le __para-verbal__ : rythme, intonation, voix (55 %)
 - le __non-verbal__ : gestes, mimiques… (35 %)
 
+### Comment faire une bonne impression au 1er contact
+
+__Reconnaissance__ : se traduit par le fait que vous existez, que l’on vous remarque.
+Comment ? Le bonjour, montrez de l’intérêt à quelqu’un en lui disant bonjour, c’est le regarder, l’écouter, lui sourire.
+Les actes en disent plus que les paroles. Le sourire dit « Vous me plaisez… Je suis content de vous voir, de faire votre connaissance… ».
 
 #### Le bonjour
 
