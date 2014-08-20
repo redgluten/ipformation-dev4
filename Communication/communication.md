@@ -61,7 +61,7 @@ Elle est l’écho de votre humeur : __cela s’entend__ !
 - Le débit / le rythme
 - Les silences
 
-### La respiration1
+### La respiration
 
 - Doser inspiration / expiration
 - Le débit des mots
