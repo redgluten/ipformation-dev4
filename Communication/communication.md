@@ -68,7 +68,16 @@ Elle est l’écho de votre humeur : __cela s’entend__ !
 - Des temps de pause pour reprendre son souffle
 - Des silences décidés et pas subis
 
+## Comment diminuer le stress
 
+- S’organiser (pensées bien ordonnées)
+- Visualiser
+- S’entraîner (debout)
+- Respirer
+- Se concentrer sur la relaxation (je suis détendu)
+- Relâcher la tension sur tous le corps de bas en haut
+- Bouger dès le début de l’intervention
+- Établir un contact visuel avec l’auditoire
 
 
 
