@@ -48,8 +48,8 @@ Entre ce qu’on dit et ce qui va être retenu il y a une très importante dépe
 
 - Agréable
 - Naturelle
-- Dynamique
-- Expressive
+- Dynamique => capter l'attention de l'auditeur
+- Expressive => cohérente avec son attitude
 - Perceptible
 
 Elle est l’écho de votre humeur : __cela s’entend__ !
@@ -58,8 +58,8 @@ Elle est l’écho de votre humeur : __cela s’entend__ !
 
 - L’articulation
 - La prononciation
-- Le débit / le rythme
-- Les silences
+- Le débit / le rythme => rompre la monotonie du discours
+- Les silences => permet d’analyser les feed-back ⇒ attention à l’embarras.
 
 ### La respiration
 
@@ -69,6 +69,8 @@ Elle est l’écho de votre humeur : __cela s’entend__ !
 - Des silences décidés et pas subis
 
 ### Comment diminuer le stress
+
+Émotions négatives (dégoût, tristesse, colère et peur) génèrent du stress.  
 
 - __S’organiser__ (pensées bien ordonnées)
 - __Visualiser__
