@@ -14,7 +14,7 @@ Définir sa posture professionnelle et gérer son image
 Émetteur ---(message)----> Récepteur
 Émetteur <---(feedback)--- Récepteur
 
-### L’entonnoir de la communication
+## L’entonnoir de la communication
 
 Entre ce qu’on dit et ce qui va être retenu il y a une très importante déperdition. Dans le meilleur des cas 80 % ([Paul Ekman](http://fr.wikipedia.org/wiki/Paul_Ekman) dit plutôt 10 %).
 
@@ -26,9 +26,51 @@ Entre ce qu’on dit et ce qui va être retenu il y a une très importante dépe
 - Ce qui est retenu (20 %)
 - Ce qui est répercuté (10 %)
 
-### Améliorer sa posture
+## Améliorer sa posture
 
-- **Une bonne communication oculaire** “Regarder l’autre personne de façon sincère et constante”
-- **Un bon maintien** “Apprendre à se redresser et à se mouvoir naturellement et avec aisance”
-- **Des gestes naturels** “Apprendre à être détendu et naturel quand vous parlez”
+- __Une bonne communication oculaire__ « Regarder l’autre personne de façon sincère et constante »
+- __Un bon maintien__ « Apprendre à se redresser et à se mouvoir naturellement et avec aisance »
+- __Des gestes naturels__ « Apprendre à être détendu et naturel quand vous parlez »
+- __Des vêtements, une apparence dans la note__ : « Vous vêtir et avoir une apparence qui convienne aux circonstances autant qu’à vous même »
+- __Voix et modulation vocale__ : « Apprendre à utiliser votre voix comme un instrument riche et sonore ». Casser le rythme.
+- __Un bon usage du langage et des pauses__ : « Utiliser un langage adapté et clair pour vos auditeurs en prévoyant des pauses et en évitant les mots bouche-trous ». Éviter le _jargon_.
+- __Implication active de l’auditeur__ : « Réserver  l’intérêt actif et la participation de chaque personne avec laquelle vous communiquez »
+- __Un bon usage de l’humour__ : « Servez-vous de l’humour pour créer un lien entre vous-même et les auditeurs »
+- __Soyez vous-même__ : « Être _authentique_ »
+
+### Posture assise
+
+- Démonstration
+- Détails : assise, pieds, avant bras, mains, buste, colonne…
+- Posture debout (rappel) : se tenir droit, colonne d’air, les bras le long du corps, les pieds en ouverture…
+
+## La voix
+
+- Agréable
+- Naturelle
+- Dynamique
+- Expressive
+- Perceptible
+
+Elle est l’écho de votre humeur : __cela s’entend__ !
+
+### L’élocution
+
+- L’articulation
+- La prononciation
+- Le débit / le rythme
+- Les silences
+
+### La respiration1
+
+- Doser inspiration / expiration
+- Le débit des mots
+- Des temps de pause pour reprendre son souffle
+- Des silences décidés et pas subis
+
+
+
+
+
+
 
