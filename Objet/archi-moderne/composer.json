@@ -1,0 +1,12 @@
+{
+  "name" : "POO3",
+  "repositories" : [ {
+    "type" : "composer",
+    "url" : "https://packagist.org/"
+  } ],
+  "autoload" : {
+    "psr-0" : {
+      "Ip" : "library"
+    }
+  }
+}
