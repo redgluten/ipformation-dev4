@@ -1,0 +1,11 @@
+générer clé rsa pour ssh :
+
+(config)# ip domain-name domaine.fr
+(config)# crypto key generate rsa
+
+
+ligne vty en ssh :
+
+(config-line)# transport input ssh
+
+

@@ -1,0 +1,8 @@
+Se connecter en telnet avec un utilisateur créé précédemment
+
+(config)# user user1 secret 0 Pa$$w0rd
+
+(config)# line vty 0 15
+
+(config-line)# login local
+
