@@ -220,6 +220,15 @@ Les données ne peuvent pas emprunter plusieurs chemins pour atteindre une desti
 
 
 
+
+## Priorité entre les routes
+
+1. Précision de la route
+2. Distance administrative
+3. Métrique
+4. Équilibrage de charges réseau (alternance)
+
+
 Interro :
 - Cables droits / croisés
 - Matériels OSI : hubs, sitch
