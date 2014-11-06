@@ -133,7 +133,6 @@ Vous voulez également réserver des adresses pour un futur quatrième réseau.
     192.168.255.255
 
 
-
 ## Cablâge
 
 Croisé / droit : croisé entre deux postes identiques. Droit entre post et routeur (qui inverse émission et réception). Les machines modernes détectent automatiquement la position des contrôlleurs.
@@ -142,4 +141,93 @@ Croisé / droit : croisé entre deux postes identiques. Droit entre post et rout
 
 ## Typologie réseau
 
+Voir [la page Wikipédia](http://fr.wikipedia.org/wiki/Topologie_de_réseau).
 
+## Modèle OSI
+
+![Couches du modèle OSI](couches_osi.gif)
+
+![Couches OSI sur réseau](couches_osi_reseau.png)
+
+## Domaines de collisions
+
+Au sein d’un hub : si tout le monde décide de parler en même temps : 1 domaine de collision.
+
+Deux hubs interconnectés : un seul domaine de collision car les hubs envoient automatiquement à tout le monde.
+
+## CSMA /CD
+
+1. On écoute le bus pour savoir qi quelqu’un parle ou s’il y a une collision
+2. On peut parler lorsque le bus es tlibre
+3. Si on parlme mais qu’une collision survient on doit se taire
+4. On reparle
+5. S’il ya une collision on revient à l’étape 4
+
+Les dispositifs de couche 2 segmentent les domaines de collisions.
+
+![Domaines de collision](domaines_collision.png)
+
+## Boucles de commutation et tempêtes de Broadcast
+
+Le protocole ![*Spanning tree*](http://cisco.goffinet.org/s3/spanning_tree#.VFinF4fVuQs) permet d’éviter les problèmes de trames dupliquées et de tempêtes de Broadcast qui peuvent survenir dans une typologie maillée.
+Il désactive certains liens de telle sorte qu’Il n’y ait plus de boucle, ces liens sont réactivés uniquement si d’autres tombent. 
+Les données ne peuvent pas emprunter plusieurs chemins pour atteindre une destination.
+
+### ST : création d’un chemin unique dans une typologie maillée
+
+**Root port** (RP) port source emprunté pour aller vers le switch racine.
+
+**Designated port** (DP) port de destination emprunté pour aller vers le switch racine.
+
+1. Élection d’un switch racine
+	1. ID de switch la plus petite (32768 par défaut chez Cisco)
+	2. Adresse MAC de switch la plus petite (Adresse MAC de l’interface virtuelle d’administration chez Cisco)
+2. Calcul du chemin le moins coûteux (basé sur la bande passante)
+	- 10 Mb/s : coût de 100
+	- 100Mb/s : coût de 19
+	- 1Gb/s : coût de 4
+	- 10 Gbs : coût de 2
+3. Si les chemins se valent on passe par le switch
+	1. Avec la plus petite ID
+	2. Avec la plus petite adresse MAC
+4. Si les switchs sont reliés plusieurs fois entre eux on passe par le *Destinated port* :
+	1. Avec la plus petite ID de port (128 par défaut chez Cisco)
+	2. Avec le plus petit n° de port
+
+
+## Composition d’un routeur
+
+1. **La RAM** :
+	- contient la table de routage
+	- contient le cache ARP
+	- gère la liste d’attente des paquets
+	- sert de mémoire temporaire pour la configuration
+	- perd son contenu au redémarrage (pour sauvegarder la conf : `copy run start`)
+2. **La NVRAM** : 
+	- contient le fichier de configuration
+	- conserve son contenu au redémarrage
+3. **La mémoire Flash** :
+	- contient le système d’exploitation
+	- conserve son contenu au redémarrage
+4. **Les interfaces** :
+	- permettent de faire transiter les paquets entre les réseaux
+
+## Processus de démarrage d’un routeur Cisco
+
+1. Vérifie que ses composants fonctionnent
+2. Cherche dans le registre de configuration le chemin du sytème d’exploitation. Par défaut dans la mémoire flash ou dans le serveur TFTP.  S’il ne trouve pas d’OS il charge ROMMON (OS minimaliste situé sur une ROM)
+3. Cherche dans le registre de configuration le chemin du fichier de configuration. Par défaut dans la NVRAM ou dans le serveur TFTP. S’il en trouve pas de fichier de configuration il considère qu’il n’a jamais été configuré et proporse un assistant de configuration.
+
+
+
+Interro :
+- Cables droits / croisés
+- Matériels OSI : hubs, sitch
+- Couches OSI
+- Topologies réseaux
+- Composants routeur
+- Calcul masque
+- commandes cisco
+- Résumé de routes
+- domaines de broadcast / collision
+- RIP
