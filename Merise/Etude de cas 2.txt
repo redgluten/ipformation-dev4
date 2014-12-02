@@ -1,0 +1,21 @@
+GESTION D'UN PARC HOTELIER :
+===============================
+
+La société GESTHOT spécialisée dans la gestion hôtelière souhaite automatiser son activité. Actuellement elle a la charge de la gestion de 8 hôtels de 80 chambres maximum chacun.
+
+Ces hôtels sont répartis en 4 classes (de 1 à 4 étoiles). Pour chaque hôtel, il y a au maximum 9 catégories de chambre différentes (douche, bain, ...)
+Le prix d'une chambre, fixe pour une classe d'hôtel et une catégorie de chambre donnée sera fonction du nombre d'occupants (1 ou 2 personnes)
+Les prix des petits-déjeuners et des consommations (bar...) sont propres à chaque hôtel.
+
+La gestion consiste en :
+- La maintenance du parc (création, modification des caractèristiques des hôtels et de leurs chambres)
+- La consultation des disponibilités en vue des réservations ou des locations immédiates
+- L'enregistrement des réservations ou des locations immédiates
+- L'enregistrement des arrhes confirmant la réservation, versés à plus de 8 jours avant l'arrivée prévue
+- L'enregistrement de l'arrivée effective des clients (remise des clefs et relevé du compteur téléphonique de la chambre)
+- L'enregistrement des diverses consommations durant le séjour
+- L'établissement de la facture au départ ; celle-ci regroupe le prix de la chambre et les prestations fournies. Le numéro de facture sera le numéro de séjour.
+- L'édition pour chaque hôtel de la liste des arrivées prévues pour une journée, de l'état d'occupation des chambres par catégorie pour un ou plusieurs jours consécutifs
+
+-----------------------------------
+Travail à faire : Etablir le modèle conceptuel des données

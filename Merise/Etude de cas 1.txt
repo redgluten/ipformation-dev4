@@ -1,0 +1,40 @@
+GESTION COMMERCIALE D'UNE PME
+=============================
+
+La société ELEC est une société spécialisée dans la distribution de produits d'affichage électronique : journaux lumineux, panneaux d'information...
+
+Le catalogue de la société ELEC représente une variété d'une trentaine de produits.
+
+La vente s'effectue uniquement par le biais d'un réseau de représentants travaillant pour le compte de la société. La commercialisation des produits ne concerne que l'île de France.
+
+Les représentants sont répartis par secteur géographique correspondant aux départements 91, 92, 93, 94, 95, 77, 78 et aux vingt arrondissements de PAris.
+Un certain nombre de représentants sont aussi spécialisés sur une ou plusieurs branches professionnelles. Actuellement une vingtaine de branches professionnelles sont traitées : la banque, l'automobile, le médical...
+
+Après démarchage du client par le représentant, une vente peut être conclue et donne lieu à la signature d'un bon de commande par le client. Le bon de commande est transmis à la société par le représentant.
+
+Dans tous les cas, chaque vente est signée par un seul représentant responsable vis-à-vis du client et de la société. Dans certains cas particuliers, une même vente peut concerner 2 représentants : le responsable et un représentant ayant participé à la conclusion de la vente ( recommandation...) Dans ce dernier cas, la commission sera partagée en parts égales entre les représentants.
+
+Chaque mois les réprésentants perçoivent le montant des commissions pour les ventes réalisées et acceptées par la société.
+
+Pour chaque commande acceptée par la société, il est établi une facture pour les articles disponibles sur stock. Dans le cas d'articles indisponibles, un complément de facture sera établi dès que le réapprovisionnement aura été effectué.
+Les commandes non acceptées ne font l'objet d'aucun traitement.
+
+Chaque mois, des états statistiques sont établis afin de permettre un suivi des ventes par branche et aussi par secteur.
+
+Exemple de données contenues dans le bon de commande/Facture :
+
+Date
+Nom et Adresse du client
+N° Commande
+N° Facture
+N° CLient
+Référence et désignations des produits avec leurs quantités, prix unitaires, et montant total de la ligne de commande
+Total HT, Montant de la TVA (unique pour tous les produits de la société) et le total TTC
+Mode de règlement (Espèce, traite, chèque...)
+
+Le catalogue des produits indique leur référence, leur désignation, leur dimension, et leur prix unitaire
+
+L'extrait du relevé mensuel des commissions établi pour chaque vendeur : une liste des commandes avec son montant et la commission qui lui est attribuée (20%)
+---------------------------------
+Travail à faire : Etablir le modèle conceptuel des données.
+
